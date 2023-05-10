@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <link rel="stylesheet" href="detail.css" />
+  </head>
+  <body>
+    <main>
+      <!-- 영화 기본 정보 -->
+      <section class="detail-movie_info border-bottom">
+        <!-- 영화 이미지 배너 -->
+        <div class="detail-banner_wrapper">
+          <div></div>
+          <img
+            src="https://www.digitaltrends.com/wp-content/uploads/2021/06/guardians.jpg?p=1"
+          />
+        </div>
+
+        <div class="d-flex gap-4 basic-info">
+          <div class="detail-poster_wrapper">
+            <img
+              src="https://newsimg.sedaily.com/2023/02/28/29LXDZZ0OU_1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="d-flex flex-column">
+            <div class="mb-4 d-flex gap-2 text-secondary font-13">
+              <span>예매 순위</span>
+              <span class="text-white">1위(40%)</span>
+              <span>개봉</span>
+              <span class="text-white">8일째</span>
+              <span>누적 관객</span>
+              <span class="text-white">183만명</span>
+            </div>
+            <h3 class="m-0"><b>가디언즈 오브 갤럭시: Volume 3</b></h3>
+            <div class="mb-2 text-secondary">2023・액션/모험/코미디・미국</div>
+            <div class="mb-3 py-2 border-top border-bottom">
+              <span>예상 ★4.7</span>
+              <span>평균 ★4.2(2만명)</span>
+            </div>
+            <div class="d-flex gap-4">
+              <div class="d-flex flex-column align-items-center">
+                <span class="text-secondary">평가하기</span>
+                <span>★★★★★</span>
+              </div>
+              <div class="vertical-line"></div>
+              <a href="#" class="d-flex align-items-center gap-2">
+                <span class="material-symbols-outlined">add</span>
+                <span class="font-14">보고싶어요</span>
+              </a>
+              <a href="#" class="d-flex align-items-center gap-2">
+                <span class="material-symbols-outlined">edit</span>
+                <span class="font-14">코멘트</span>
+              </a>
+              <a href="#" class="d-flex align-items-center gap-2">
+                <span class="material-symbols-outlined">visibility</span>
+                <span class="font-14">보는중</span>
+              </a>
+              <a href="#" class="d-flex align-items-center gap-2">
+                <span class="material-symbols-outlined">more_horiz</span>
+                <span class="font-14">더보기</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 영화 상세 정보 -->
+      <section class="py-4">
+        <div class="detail-info">
+          <div class="border bg-white p-4">
+            <!-- 내가 좋아할 이유 -->
+            <div class="d-flex flex-column gap-3 mb-4">
+              <h5><b>내가 좋아할 이유</b></h5>
+              <div class="d-flex justify-content-between border-bottom pb-2">
+                <div>선호하는 배우</div>
+                <div>조 샐다나</div>
+              </div>
+              <div class="d-flex justify-content-between border-bottom pb-2">
+                <div>재밌게 본 비슷한 작품</div>
+                <div>블랙팬서: 와칸다 포에버</div>
+              </div>
+              <div class="d-flex justify-content-between border-bottom pb-2">
+                <div>선호하는 태그</div>
+                <div>#마블 #우주선</div>
+              </div>
+            </div>
+
+            <!-- 기본 정보 -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between">
+                <h5><b>기본 정보</b></h5>
+                <div>더보기</div>
+              </div>
+              <div>Guardians of the Galaxy Vol. 3</div>
+              <div>2023 · 미국 · 액션</div>
+              <div>2시간 30분 · 12세</div>
+              <div>
+                ‘가모라’를 잃고 슬픔에 빠져 있던 ‘피터 퀼’이 위기에 처한
+                은하계와 동료를 지키기 위해 다시 한번 가디언즈 팀과 힘을 모으고,
+                성공하지 못할 경우 그들의 마지막이 될지도 모르는 미션에 나서는
+                이야기
+              </div>
+            </div>
+
+            <!-- 코멘트 -->
+            <div class="d-flex justify-content-between">
+              <h5><b>코멘트</b></h5>
+              <div>더보기</div>
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <div>시무리우리형</div>
+                <div>★4.5</div>
+              </div>
+              <div>비로소야 그루트의 말이 무슨뜻인지 들리는 관객들</div>
+              <div>좋아요 및 댓글 수</div>
+              <div>좋아요</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
